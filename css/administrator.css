@@ -1,0 +1,236 @@
+body{
+	background-color: #ADD8E6;
+}
+/*内容区开始*/
+
+
+.content{
+	width: 1004px !important;
+	height: 800px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+
+/*左边内容开始*/
+.content-index{
+	width: 244px;
+	height: 300px;
+	/*border: 1px solid blue;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.content-index-title{
+	width: 244px;
+	height: 73px;
+	/*border: 1px solid blue;*/
+}
+.content-index-title p{
+	line-height: 73px;
+	padding-left: 15px;
+	/*font-size: 16px;*/
+	color: #aa8a6e;
+}
+.color{
+	width: 206px;
+	height: 21px;
+	background: url(img/type_left01.jpg) no-repeat;
+}
+.content-index .index{
+	width: 83px;
+	height: 115px;
+	/*border: 1px solid gray;*/
+	position: absolute;
+	left: 42px;
+	top: 115px;
+}
+.content-index .index li{
+	padding-bottom: 22px;
+	text-align: right;
+	font-size: 12px;
+	width: 83px;
+	height: 20px;
+	/*border: 1px solid gray;*/
+	position: relative;
+	
+}
+.content-index .index li.A{
+	padding-bottom:51px;
+}
+/*给第一个li设置样式开始*/
+.first-li{
+	height: 48px !important;
+}
+/*给第一个li设置样式结束*/
+.content-index .index li form input{
+	width: 110px;
+	height: 25px;
+	color: #808080;
+	cursor: pointer;
+	border:1px solid #1390D9;
+	background-color: lightblue;
+	border-radius: 5px;
+	position: absolute;
+	left: 29px;
+	top: -5px;
+}
+.content-index .index li form span{
+	display: block;
+	width: 107px;
+	height: 25px;
+	color: #808080;
+	cursor: pointer;
+	/*border:1px solid #1390D9;*/
+	background-color: #DEE2E2;
+	/*border-radius: 5px;*/
+	position: absolute;
+	left: 29px;
+	top: -5px;
+	line-height: 25px;
+}
+.content-index .index li form input.assignment{
+	font-size: 12px;
+}
+.content-index .index li form input:hover{
+	background-color:#048BD1 ;
+	color: #fff;
+}
+/*给批量导入信息单独设置样式开始*/
+/*.content-index .index li form input.into{
+	width: 90px;
+}*/
+/*给批量导入信息单独设置样式结束*/
+/*给提交文件单独设置样式开始*/
+.content-index .index li form input.present{
+	left: 120px;
+	width: 82px;
+	left: 42px;
+	top: 25px;
+	background-color: #a8fbcd;
+	/*color: #000;*/
+}
+.content-index .index li form input.present:hover{
+	background-color: #048BD1;
+}
+/*给提交文件单独设置样式结束*/
+/*给选择文件单独设置样式开始*/
+.content-index .index li form input#myfile{
+	left: 120px;
+	width: 62px;
+	left: 138px;
+	top: -4px;
+	background-color: #fff;
+	/*color: #000;*/
+	border: none;
+	opacity: 0;
+	z-index: 3;
+	cursor: pointer;
+}
+.content-index .index li form input#myefile{
+	left: 120px;
+	width: 62px;
+	left: 138px;
+	top: -4px;
+	background-color: #fff;
+	/*color: #000;*/
+	border: none;
+	opacity: 0;
+	z-index: 3;
+	
+}
+.content-index .index li .cover{
+	width: 62px;
+	height: 26px;
+	background-color: #D3D3D3;
+	/*border: 1px solid #0BEEBB;*/
+	position: absolute;
+	left: 139px;
+	top: -5px;
+
+	border-radius: 5px;
+	cursor: pointer;
+}
+.content-index .index li .cover p{
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	font-family: 楷体;
+	color: #646464;
+	cursor: pointer;
+}
+.content-index .index li .cover p:hover{
+	text-decoration: none;
+	color: #646464;
+	
+}
+/*给选择文件单独设置样式结束*/
+.content-index .index li p:hover{
+	color: #251ab1;
+	text-decoration: underline;
+}
+.content-index .index li .arrow{
+	width: 14px;
+	height: 10px;
+	background: url(../img/ico_type02.png) no-repeat;
+	float: left;
+	position: absolute;
+	top: 4px;
+
+}
+/*左边内容结束*/
+/*右边内容开始*/
+.content-detail{
+	width: 759px;
+	height: 600px;
+	/*border: 1px solid gray;*/
+	position: absolute;
+	left: 244px;
+	top: 0;
+}
+.content-detail-pic{
+	width: 760px;
+	
+}
+.content-detail .detail>li{
+	font-size: 14px;
+	/*border: 1px solid red;*/
+	display: inline-block;
+	/*padding-top: 45px;*/
+}
+.content-detail .detail>li p{
+	color: #767576;
+	width: 760px;
+	height: 31px;
+	border-bottom: 3px solid #d4d4d4;
+
+	
+}
+.infro{
+	width: 759px;
+	height: 150px;
+	border: 1px solid lightgrey;
+	overflow: auto;
+}
+
+.infro ul li{
+	float: left;
+	padding-right: 10px;
+}
+
+.infro ul li a{
+	color: #000;
+}
+
+.infro ul li a:hover{
+	color: purple;
+	text-decoration: underline;
+}
+/*右边内容结束*/
+#bars{
+	margin: 0 auto;
+}
+#total{
+	
+}
+/*内容区结束*/}

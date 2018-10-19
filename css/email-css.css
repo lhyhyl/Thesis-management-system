@@ -1,0 +1,31 @@
+.choose{
+	width: 756px;
+	height: 500px;
+	/*border: 1px solid #13D6C6;*/
+	margin: 0 auto;
+	position: relative;
+}
+.choose .sure input.isTrue{
+	width: 760px;
+	height: 50px;
+	border: none;
+	background-color: #5CC5F4;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	position: absolute;
+	top: 400px;
+}
+.choose .sure input.isTrue:hover{
+	background-color: #54BEF0;
+}
+/*输入论文简介开始*/
+.choose  .sure .brief{
+	width: 756px ;
+	height: 206px;
+	border: 1px solid lightskyblue;
+	text-indent: 2em;
+	position: absolute;
+	top: 30px;
+}
+/*输入论文简介结束*/

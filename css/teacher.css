@@ -1,0 +1,180 @@
+
+
+.on ul li a,form{
+	float: left;
+}
+.content-the ul li{
+	/*width: 300px;*/
+	height: 28px;
+}
+
+.waiting ul li a,form{
+	float: left;
+}
+.waiting ul li form input.view{
+	width: 117px;
+}
+.off ul li a,form{
+	float: left;
+}
+.content-fun form .icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8,.icon9{
+	left:75px;
+}
+.content-fun form .icon2,.icon3,.icon4{
+	width: 24px;
+	height: 26px;
+	background: url(../img/icon.png) -138px -1208px  no-repeat;
+	
+}
+.content-fun form .icon2{
+	position: absolute;
+	top: 87px;
+	/*left: 48px;*/
+}
+.content-fun form .icon3{
+	position: absolute;
+	top: 155px;
+	/*left: 11px;*/
+}
+.content-fun form .icon4{
+	position: absolute;
+	top: 219px;
+	/*left: 29px;*/
+}
+.content-fun form .icon5{
+	position: absolute;
+	top: 285px;
+	/*left: 20px;*/
+}
+.content-fun form .icon6{
+	width: 25px;
+	height: 24px;
+	background: url(../img/icon.png) -183px -47px  no-repeat;
+	
+	position: absolute;
+	top: 353px;
+	/*left: 77px;*/
+}
+.content-fun form input.input2,.input3,.input4,.input5,.input6{
+	left: 110px;
+}
+.content-fun form input.input3{
+	width: 215px ;
+	/*left: 38px;*/
+	top: 132px;
+	/*font-size: 15px;*/
+	
+}
+.content-fun form input.input2{
+	width: 144px ;
+	/*left: 74px;*/
+	top: 67px;
+	/*font-size: 15px;*/
+	
+}
+.content-fun form input.input4{
+	width: 180px;
+	/*left: 58px;*/
+	top: 198px;
+}
+.content-fun form input.input5{
+	width: 199px;
+	/*left: 48px;*/
+	top: 264px;
+}
+.content-fun form input.input6{
+	width: 38px;
+	/*left: 119px;*/
+	top: 330px;
+}
+.text1,.text2{
+	height: 20px !important;
+	border: 1px solid #999 !important;
+	cursor: auto !important;
+	font-size: 12px !important;
+	padding-left: 5px;
+}
+.text1{
+	width: 88px !important;	
+	left: 234px;
+	top: 109px;
+}
+.text2{
+	width: 86px !important;
+	left: 236px;
+	top: 173px;
+	/*font-size: 12px !important;*/
+}
+.text1:hover{
+	background-color: #f3f3f3 !important;
+	color: #000 !important;
+}
+.text2:hover{
+	background-color: #f3f3f3 !important;
+	color: #000 !important;
+}
+/*调整修改,删除按钮开始*/
+.content-the ul li form input{
+	border: none;
+	width: 50px;
+	height: 20px;
+	cursor: pointer;
+	background-color: #DADADA;
+	margin-left: 10px;
+	border-radius: 5px;
+
+}
+.content-the ul li form input:hover{
+	background-color: #26aca1 !important;
+	color: #fff;
+}
+/*调整修改,删除按钮结束*/
+/*搜索框开始*/
+.content-fun .search{
+	width: 321px;
+	height: 218px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 410px;
+	left: 0px;
+}
+.content-fun form.form2{
+	width: auto ;
+	height: auto ;
+	/*position: relative;*/
+}
+.content-fun form.form2:hover{
+	background-color: #fff !important;
+}
+.content-fun form.form2>input.text3{
+	width: 185px;
+	height: 28px;
+	border: 1px solid #D3D3D3;
+	cursor: auto;
+	left: 22px;
+	top: 6px;
+	font-size: 12px;
+	padding-left: 5px;
+}
+.content-fun form.form2>input.button1{
+	width: 65px;
+	height: 29px;
+	left: 225px;
+	top: 6px;
+	background-color:#D3D3D3 ;
+	color: #000;
+	border-radius: 5px;
+}
+.content-fun form.form2>input.button1:hover{
+	background-color: #30A080;
+	color: #fff;
+}
+.show{
+	width: 100%;
+	height: 180px;
+	border: 1px solid #838383;
+	position: absolute;
+	top: 57px;
+	left: 0px;
+}
+/*搜索框结束*/

@@ -1,0 +1,193 @@
+body{
+	background-color: #ADD8E6;
+}
+
+/*内容区开始*/
+
+
+.content{
+	width: 1004px !important;
+	height: 800px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+
+/*左边内容开始*/
+.content-index{
+	width: 244px;
+	height: 300px;
+	/*border: 1px solid blue;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.content-index-title{
+	width: 244px;
+	height: 73px;
+	/*border: 1px solid blue;*/
+}
+.content-index-title p{
+	line-height: 73px;
+	padding-left: 15px;
+	/*font-size: 16px;*/
+	color: #aa8a6e;
+}
+.color{
+	width: 206px;
+	height: 21px;
+	background: url(img/type_left01.jpg) no-repeat;
+}
+.content-index .index{
+	width: 83px;
+	height: 115px;
+	/*border: 1px solid gray;*/
+	position: absolute;
+	left: 42px;
+	top: 115px;
+}
+.content-index .index li{
+	padding-bottom: 22px;
+	text-align: right;
+	font-size: 12px;
+	/*width: 83px;
+	height: 12px;*/
+	/*border: 1px solid gray;*/
+	position: relative;
+
+	
+}
+.content-index .index li p{
+	color: #646464;
+	cursor: pointer;
+}
+.content-index .index li p:hover{
+	color: #251ab1;
+	text-decoration: underline;
+}
+.content-index .index li .arrow{
+	width: 14px;
+	height: 10px;
+	background: url(../img/ico_type02.png) no-repeat;
+	float: left;
+	position: absolute;
+	top: 4px;
+}
+/*左边内容结束*/
+/*右边内容开始*/
+.content-detail{
+	width: 759px;
+	height: 600px;
+	/*border: 1px solid gray;*/
+	position: absolute;
+	left: 244px;
+	top: 0;
+}
+.content-detail-pic{
+	width: 760px;
+	
+}
+
+.content-detail .detail>li{
+	font-size: 14px;
+	/*border: 1px solid red;*/
+	display: inline-block;
+	padding-top: 75px;
+	/*position: relative;*/
+}
+.content-detail .detail>li p{
+	color: #767576;
+	width: 760px;
+	height: 31px;
+	border-bottom: 3px solid #d4d4d4;
+
+	
+}
+/*输入论文题目开始*/
+.content-detail .detail>li>.formA{
+	position: absolute;
+	left: 243px;
+	top: 350px;
+	border: 1px solid lightskyblue;
+	width: 385px;
+	height: 30px;
+	/*cursor: pointer;*/
+	
+}
+.content-detail .detail>li>.formA .text-title{
+	width: 300px;
+	height: 30px;
+	padding-left: 5px;
+	color: #999;
+	border: none;
+	float: left;
+	cursor: auto;
+	
+}
+.content-detail .detail>li>.formA .button-title{
+	width: 80px;
+	height: 30px;
+	border: none;
+	float: left;
+	cursor: pointer;
+	background-color: lightskyblue;
+	color: gray;
+}
+.content-detail .detail>li>.formA .feedback{
+	display: block;
+	position: absolute;
+	left: 100px;
+	top: 44px;
+	width: 133px;
+	height: 30px;
+	/*border: 1px solid #1390D9;*/
+	float: left;
+	/*display: none;*/
+}
+/*输入论文题目结束*/
+
+
+.content-detail .detail>li #thesis{
+	text-indent: 2em;
+	display: block;
+	padding-top: 29px;
+	
+}
+.content-detail .detail>li #topic{
+	text-indent: 20em;
+	display: block;
+	font-size: 15px;
+}
+/*右边内容结束*/
+/*确定选择框开始*/
+.sure{
+	position: absolute;
+	top: 483px;
+	left: 244px;
+}
+.sure input.isTrue{
+	width: 760px;
+	height: 50px;
+	border: none;
+	background-color: #5CC5F4;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.sure input.isTrue:hover{
+	background-color: #54BEF0;
+}
+/*输入论文简介开始*/
+.content .sure .brief{
+	width: 756px ;
+	height: 206px;
+	border: 1px solid lightskyblue;
+	text-indent: 2em;
+}
+/*输入论文简介结束*/
+/*确定选择框结束*/
+/*内容区结束*/
+
+.elsecss{
+	background-color: #D3D3D3 !important; 
+}

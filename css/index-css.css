@@ -1,0 +1,191 @@
+
+body{
+	background: url(../img/background.jpg) no-repeat;
+	background-size: 100%;
+	
+}
+.all{
+	width: 1400px;
+	height: 500px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	position: relative;
+
+	/*background-color: #f5f5f5;*/
+
+}
+.all-onload{
+	width: 322px;
+	height: 372px;
+	/*border: 1px solid blue;*/
+	position: absolute;
+	right: 160px;
+	top: 116px;
+	background-color: #54bef0;
+	border-radius: 5px;
+
+
+}
+.all-words{
+	text-align: center;
+	font-size: 19px;
+	color: #f0f0f0;
+	padding-top: 33px;
+	
+}
+.all-onload form{
+	/*border: 1px solid blue;*/
+	padding-top: 31px;
+	position: absolute;
+	top: 94px;
+}
+.all-onload form input{
+	width: 254px;
+	height: 45px;
+	border: 1px solid #bbb;
+	color: #999;
+	padding-left: 5px;
+}
+.all-onload form input.all-words-1{
+	border-bottom:none ;
+	border-top-left-radius: 7px ;
+	border-top-right-radius: 7px ;
+	position: absolute;
+	left:29px ;
+	top: 28px;
+	line-height: 45px;
+}
+.all-onload form input.all-words-2{
+	border-bottom-left-radius: 7px ;
+	border-bottom-right-radius: 7px ;
+	position: absolute;
+	left:29px ;
+	top: 74px;
+	line-height: 45px;
+	
+}
+.all-onload form input.all-words-3{
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	left:29px ;
+	top: 140px;
+	line-height: 30px;
+	
+}
+.all-onload form .yzm-pic{
+	width: 130px;
+	height: 30px;
+	/*border: 1px solid red;*/
+	float: right;
+	margin-right: 30px;
+	position: absolute;
+	left:157px ;
+	top: 140px;
+	
+}
+.all-onload form input.all-words-4{
+	position: absolute;
+	left:32px ;
+	top: 210px;
+	background-color: #ffae27;
+	border-radius: 7px;
+	color: #ffe2d1;
+	font-size: 19px;
+	cursor: pointer;
+	padding-left: 0;
+}
+/*.all-title{
+	position: absolute;
+	top: 15px;
+	left: 349px;
+	font-size: 21px;
+	color: #0063a4;
+}*/
+.all-help{
+	position: absolute;
+	top: 18px;
+	right: 160px;
+}
+.all-help a{
+	font-size: 12px;
+	color: #bbb;
+	
+}
+
+.all-pic img{
+	float: left;
+}
+.bluearrows{
+	width: 780px;
+	height: 480px;
+	position: absolute;
+	top: 157px;
+	left: 94px;
+}
+.safe{
+	width: 200px;
+	height: 213px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 233px;
+	left: 594px;
+}
+.safe-e{
+	width: 235px;
+	height: 213px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 317px;
+	left: 586px;
+	
+}
+.safe p{
+	text-align: center;
+	font-size: 45px;
+	color: #048bd1;
+	padding-bottom: 40px;
+	font-family: 宋体;
+}
+.safe-e p{
+	/*text-align: center;*/
+	font-size: 26px;
+	color: #048bd1;
+	/*border: 1px solid red;*/
+	/*float: left;*/
+	/*padding-bottom: 40px;*/
+	font-family: 宋体;
+}
+.exchange{
+	width: 200px;
+	height: 20px;
+	position: absolute;
+	top: 174px;
+	left: 180px;
+	font-size: 12px;
+
+
+}
+
+.exchange a:hover{
+	color: purple;
+	text-decoration: underline;
+	
+}
+.break{
+	display: block;
+	width: 200px;
+	height: 62px;
+	margin: 0 auto;
+}
+/*页面底部开始*/
+.foot{
+	display: block;
+	width: 160px;
+	height: 20px;
+	position: absolute;
+	left: 568px;
+	top: 575px;
+	color: #999;
+}
+/*页面底部结束*/

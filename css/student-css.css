@@ -1,0 +1,183 @@
+body{
+	/*background: url(../img/student-bg.png) no-repeat;*/
+	background-size: 100%;
+
+}
+
+
+
+.header{
+	width: 100%;
+	height: 114px;
+	/*border-top: 1px solid #BBBBBB;*/
+}
+.header-cont{
+	width: 998px;
+	height: 114px;
+	/*border: 1px solid yellow;*/
+	margin: 0 auto;
+	/*background: url(../img/library.png) no-repeat ;*/
+}
+/*头部结束*/
+.content-fun form input.input2,.input3,.input4,.input5,.input6,.input7,.input8,.input9{
+	left: 110px ;
+}
+.content-fun form input.input2{
+	width: 114px;
+	/*left: 58px;*/
+	top: 66px;
+}
+.content-fun form input.input3{
+	width: 132px;
+	/*left: 58px !important;*/
+	top: 132px;
+}
+.content-fun form input.input4{
+	width: 108px;
+	top: 528px;
+}
+.content-fun form input.input5{
+	width: 132px;
+	top: 198px;
+}
+.content-fun form input.input6{
+	width: 240px;
+	top: 264px;
+	font-size: 15px;
+}
+.content-fun form input.input7{
+	width: 111px;
+	top: 330px;
+}
+.content-fun form input.input8{
+	width: 111px;
+	top: 396px;
+}
+.content-fun form input.input9{
+	width: 137px;
+	top: 461px;
+	font-size: 15px;
+}
+.content-fun form input#stu-myfile,#stu-myfile2{
+	width: 100px;
+	height: 30px;
+	z-index: 4;
+	font-size: 12px;
+	opacity: 0;
+}
+.content-fun form input#stu-myfile,.cover{
+	
+	left: 246px;
+	top: 480px;
+	
+}
+.content-fun form .cover,.cover2{
+	width: 100px;
+	height: 24px;
+	background-color: #B1B1B1;
+	position: absolute;
+	z-index: 3;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.content-fun form input#stu-myfile2,.cover2{
+	
+	left: 221px;
+	top: 416px;
+	
+}
+
+.content-fun form .cover,.cover2  p{
+	text-align: center;
+	line-height: 24px;
+	cursor: pointer;
+	font-family: 楷体;
+}
+
+.content-fun form .icon2,.icon3{
+	width: 24px;
+	height: 26px;
+	background: url(../img/icon.png) -138px -1208px  no-repeat;
+	
+}
+
+.content-fun form .icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8,.icon9{
+	left:75px;
+}
+.content-fun form .icon2{
+	position: absolute;
+	top: 87px;
+	/*left: 25px;*/
+}
+.content-fun form .icon3{
+	position: absolute;
+	top: 152px;
+	/*left: 25px;*/
+}
+
+.content-fun form .icon4{
+	width: 23px;
+	height: 24px;
+	background: url(../img/icon.png) -139px -1454px no-repeat;
+	position: absolute;
+	top: 550px;
+	/*left: 25px;*/
+}
+.content-fun form .icon5{
+	position: absolute;
+	top: 220px;
+	/*left: 25px;*/
+}
+
+.content-fun form .icon6{
+	position: absolute;
+	top: 286px;
+	/*left: 25px;*/
+	width: 24px;
+	height: 26px;
+	background: url(../img/icon.png) -138px -1208px  no-repeat;
+	
+}
+.content-fun form .icon7{
+	position: absolute;
+	top: 350px;
+	/*left: 25px;*/
+	width: 24px;
+	height: 26px;
+	background: url(../img/icon.png) -138px -1208px   no-repeat;
+	
+}
+.content-fun form .icon8{
+	position: absolute;
+	top: 416px;
+	/*left: 25px;*/
+	width: 24px;
+	height: 26px;
+	background: url(../img/icon.png) -182px -1208px  no-repeat;
+	
+}
+.content-fun form .icon9{
+	position: absolute;
+	top: 482px;
+	/*left: 25px;*/
+	width: 24px;
+	height: 26px;
+	background: url(../img/icon.png) -182px -1208px   no-repeat;
+	
+}
+.result{
+	width: 300px;
+	height: 200px;
+	border: 1px solid #D3D3D3;
+	margin: 0 auto;
+	position: absolute;
+	top: 594px;
+	left: 20px;
+}
+
+.content-the .on-ul,.waiting-ul,.off-ul{
+	height: 169px;
+	overflow: auto;
+	/*border: 1px solid red;*/
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>录入信息页面</title>
+		<script type="text/javascript" src="js/jquery-1.4.2.js">
+		</script>
+		<script type="text/javascript" src="js/logging-js.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+		<link rel="stylesheet" type="text/css" href="css/logging.css" />
+	</head>
+
+	<body>
+		<!--top开始-->
+		<div class="top ">
+			<div class="top-school pic">
+				<img src="img/school.png" width="300px" />
+				<!--<img src="img/login_logo.jpg"/>-->
+			</div>
+			<p class="top-title title">
+				毕业论文管理系统
+			</p>
+			<div class="top-help">
+				<a href="#">帮助中心</a>
+			</div>
+			<div class="top-exit">
+				<a href="#">返回上一级</a>
+			</div>
+			<div class="top-name">
+				<p>欢迎(
+					<a href="#">XXX</a>)老师!</p>
+			</div>
+		</div>
+		<!--top结束-->
+		<!--内容开始-->
+		<div class="content">
+
+			<div class="content-index">
+				<div class="content-index-title">
+					<p>论文录入</p>
+				</div>
+				<div class="color"></div>
+
+				<ul class="index">
+
+					<li>
+						<div class="arrow">
+
+						</div>
+						<p>论文题目</p>
+					</li>
+					<li>
+						<div class="arrow">
+
+						</div>
+						<p>论文简介</p>
+					</li>
+				</ul>
+			</div>
+			<div class="content-detail">
+				<div class="content-detail-pic">
+					<img src="img/library.jpg" width="760px" />
+				</div>
+				<ul class="detail">
+
+					<li>
+						<p>论文题目</p>
+						<form class="formA" action="" method="post">
+
+							<input class="text-title" type="text" value="请输入论文题目" />
+							<input class="button-title" type="button"  value="查重" />
+							<span class="feedback">
+								456624
+							</span>
+						</form>
+					</li>
+					<li>
+						<p>论文简介</p>
+
+					</li>
+				</ul>
+			</div>
+			<!--确定选择按钮开始-->
+			<form class="sure" action="" method="post">
+
+				<!--<input class="brief" type="text" name="" id="" value="请输入论文简介" />-->
+				<textarea class="brief" name="" rows="" cols="">请输入论文简介</textarea>
+
+				<input class="isTrue elsecss" type="submit" value="确定选择该论题" disabled="disabled"/>
+			</form>
+			<!--确定选择按钮结束-->
+		</div>
+
+		<!--内容结束-->
+		<span id="js-span">
+			
+		</span>
+	</body>
+
+</html>

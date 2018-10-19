@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+/*top部分*/
+.top{
+	width: 100%;
+	height: 51px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	position: relative;
+	background-color: lightblue;
+}
+.top-administor{
+	float: right;
+	padding-top: 22px;
+	font-size: 12px;
+	padding-right: 10px;
+
+}
+.top-administor a{
+	color: #1390D9;
+}
+.top-administor a:hover{
+	color: purple;
+}
+.top-help {
+	float: right;
+	padding-top: 18px;
+
+}
+.top-help a{
+	font-size: 12px;
+	color: gray;
+}
+.top-help a:hover{
+	color: purple;
+	text-decoration: underline;
+}
+.top-exit {
+	float: right;
+	padding-top: 18px;
+	padding-right: 5px;
+
+}
+.top-exit a{
+	font-size: 12px;
+	color: gray;
+}
+.top-exit a:hover{
+	color: purple;
+	text-decoration: underline;
+}
+.top-name{
+	float: right;
+	padding-top: 22px;
+	padding-right: 37px;
+
+	font-size: 12px;
+}
+/*top部分*/
+/*头部开始*/
+/*内容开始*/
+.content{
+	width:100%;
+	height: 900px;
+	margin: 0 auto;
+	/*background: url(../img/content-bg3.png) no-repeat;
+	background-size: 100%;*/
+	background-color: #f3f3f3;
+	position: relative;
+}
+.content-fun{
+	width: 26%;
+	height:100%;
+	/*border: 1px solid #999999;*/
+	float: left;
+	/*background-color: #f3f3f3;*/
+	position: relative;
+}
+/*.content-fun form{
+	position: relative;
+	border: 1px solid red;
+}*/
+.content-fun .form1{
+	width: 100%;
+	height: 66px;
+	background-color: #dbdbdb;
+}
+.content-fun .form1:hover{
+	background-color:#dbdbdb ;
+}
+.content-fun form {
+	width: 100%;
+	height: 66px;
+	/*border: 1px solid red;*/
+}
+.content-fun form:hover{
+	/*background-color:#3c8dce ;*/
+	
+}
+.hover{
+	color: #fff !important;
+	background-color:#3c8dce !important ;
+}
+.content-fun form .icon1{
+	width: 18px;
+	height: 24px;
+	background: url(../img/icon.png) -9px -1px no-repeat;
+	position: absolute;
+	top: 20px;
+	left: 87px;
+}
+
+
+
+
+.content-fun form input{
+	width: 100%;
+	height: 66px;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	color: #777;
+	font-family: 楷体;
+	background-color: #f3f3f3;
+	position: absolute;
+}
+
+/*.content-fun form input:hover{
+	background-color:#3c8dce ;
+	color: #fff;
+}*/
+.content-fun form input.alone{
+	text-align: center;
+	background-color: #dbdbdb;
+	color: #2c2f3b;
+	cursor: pointer;
+	width: 90px;
+}
+/*input定位*/
+.content-fun form input.input1{
+	width: 90px;
+	left: 123px;
+	top: 0;
+}
+/*.content-fun form input.input2{
+	width: 144px;
+	left: 84px;
+	top: 66px;
+}
+.content-fun form input.input3{
+	width: 216px;
+	left: 84px;
+	top: 132px;
+}*/
+
+.content-fun form .icon5{
+	width: 24px;
+	height: 26px;
+	background: url(../img/icon.png) -138px -1208px  no-repeat;
+	
+}
+.content-the{
+	width: 74%;
+	height:100%;
+	float: left;
+}
+.content-the .on,.waiting,.off{
+	padding-top: 20px;
+	width: 100%;
+	height: 200px;
+	overflow: auto;
+	/*border: 1px solid red;*/
+}
+
+.content-the h2 {
+	color: #032421;
+	font-family: 楷体;
+}
+.content-the ul{
+	padding-left: 100px;
+	font-size: 15px;
+}
+.content-the .on-ul li a{
+	color:#4859ae;
+	display: block;
+	padding-bottom: 5px;
+}
+.content-the .on-ul li a:hover{
+	color: #a32705;
+	text-decoration: underline;
+}
+.content-the .waiting-ul li a{
+	color:#4375ca;
+	display: block;
+	padding-bottom: 5px;
+}
+.content-the .waiting-ul li a:hover{
+	color: #a32705;
+	text-decoration: underline;
+}
+
+.content-the .off-ul li a{
+	color:darkgray;
+	display: block;
+	padding-bottom: 5px;
+}
+/*内容结束*/
+/*毕业论文登录系统*/
+.title{
+	position: absolute;
+	top: 15px;
+	left: 349px;
+	font-size: 25px;
+	color: #0063a4;
+	font-family: 楷体;
+}
+/*顶部图片*/
+.pic{
+	width: 337px;
+	height: 44px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	/*border: 1px solid black;*/
+}
+/*帮助中心*/
+.help{
+	position: absolute;
+	top: 18px;
+	right: 160px;
+}
+.help a{
+	font-size: 12px;
+	color: #bbb;
+	
+}
